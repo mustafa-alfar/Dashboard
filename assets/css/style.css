@@ -19,23 +19,36 @@ nav p {
   padding: 3px 0;
 }
 .container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .chart {
+    justify-content: center;
+  }
 }
 
 .right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 70%;
 }
 
 .chart-container {
-  display: inline-block;
-  width: 45%;
+  display: flex;
+  flex-basis: 45%;
   margin: 1% 2%;
   vertical-align: top;
+}
+@media (max-width: 1200px) {
+  .chart-container {
+    flex-basis: 100%;
+  }
 }
 svg {
   display: block;
