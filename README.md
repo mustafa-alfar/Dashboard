@@ -1,8 +1,7 @@
 
 # Data-Driven Documents Dashboard 
-by using d3 , svg and js we built a data visualisation
-that have 3 different type of Chart                                 
-1-Pie 2-Map 3-Histogram                                             
+by using d3.JS, SVG and JS I built a data visualisation that has 3 different types of Chart
+1-Pie 2-Map 3-Histogram                                          
 
 to inistall locally : 
 1. open your terminal.
